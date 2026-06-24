@@ -1,0 +1,25 @@
+# Final Project Report
+
+## Title
+
+CoreTech RAG Knowledge Assistant
+
+## Objective
+
+The objective of this project is to develop an AI-powered assistant capable of retrieving relevant information from a knowledge base and answering user questions accurately.
+
+## Methodology
+
+The project uses a Retrieval-Augmented Generation architecture. Documents are stored in a knowledge base and transformed into TF-IDF vectors. User queries are compared against these vectors using cosine similarity to retrieve the most relevant information.
+
+## Implementation
+
+The system was implemented using Python and Scikit-Learn. A dataset containing CoreTech service information was created. The retrieval engine ranks documents according to relevance and generates responses based on the retrieved context.
+
+## Results
+
+The system successfully answered queries related to CoreTech services, cloud solutions, AI services, cybersecurity, and customer support. Testing showed accurate retrieval of relevant documents and appropriate response generation.
+
+## Conclusion
+
+The project achieved its objective of creating a functional RAG-based knowledge assistant. It demonstrates practical applications of Artificial Intelligence and Information Retrieval techniques in customer support and enterprise knowledge management systems.
